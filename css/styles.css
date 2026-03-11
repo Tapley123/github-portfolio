@@ -36,13 +36,26 @@
   --transition:  0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* ─── Bootstrap 5.3 dark-mode variable overrides ─── */
+[data-bs-theme="dark"] {
+  --bs-body-bg:          #070b14;
+  --bs-body-color:       #e2e8f0;
+  --bs-secondary-bg:     #111827;
+  --bs-tertiary-bg:      #0c1220;
+  --bs-border-color:     #1e2d45;
+  --bs-modal-bg:         #0c1220;
+  --bs-card-bg:          #111827;
+  --bs-navbar-color:     #94a3b8;
+  --bs-navbar-brand-color: #e2e8f0;
+}
+
 /* ─── Reset & Base ─── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { scroll-behavior: smooth; font-size: 16px; }
 
 body {
-  background: var(--bg);
+  background: var(--bg) !important;
   color: var(--text);
   font-family: var(--font-body);
   line-height: 1.7;
