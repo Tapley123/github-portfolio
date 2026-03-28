@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:tapley123.github.io)"
+      "WebFetch(domain:tapley123.github.io)",
+      "Read(//c/Users/conor/.claude/**)"
     ]
   }
 }
